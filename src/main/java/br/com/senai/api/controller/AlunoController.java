@@ -15,7 +15,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("/pessoas")
+@RequestMapping("/aluno")
 public class AlunoController {
 
     private AlunoRepository pessoaRepository;
@@ -36,7 +36,7 @@ public class AlunoController {
         return alunoService.listarNomeContaining(nomeContaining);
     }
 
-    @GetMapping("{pessoaId}")
+    @GetMapping("/{pessoaId}")
     public ResponseEntity<AlunoDTO> buscar(@PathVariable Long pessoaId){
         return alunoService.buscar(pessoaId);
     }

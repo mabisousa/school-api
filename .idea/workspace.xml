@@ -5,76 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd09b5bf-bdfa-4585-8639-ff449a26bc6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/AlunoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0002__insertAlunos.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/EntregaAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/OcorrenciaAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/PessoaAssembler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/PessoaAssembler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/RoleAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/RoleUsuariosAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/UsuarioAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/EntregaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/OcorrenciaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/AlunoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/RoleUsuariosController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/ClienteInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/DestinatarioInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/EntregaInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/OcorrenciaInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/PessoaInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/PessoaInputDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/RoleInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/UsuarioInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/ClienteDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/DestinatarioDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/EntregaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/OcorrenciaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/PessoaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/AlunoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/RoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/RoleUsuariosDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/UsuarioDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/ClienteInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/DestinatarioInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/EntregaInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/OcorrenciaInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/PessoaInputDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/PessoaInputDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/RoleInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/RoleUsuariosInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/UsuarioInputDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/ValidationGroups.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/AuthenticationResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Destinatario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Entrega.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Ocorrencia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/RoleUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/RoleUsuarios.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/StatusEntrega.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/EntregaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/AlunoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/RoleUserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/RoleUsuariosRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/UsuarioRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/EntregaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/OcorrenciaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/PessoaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/RoleUsuariosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/SolicitacaoEntregaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/security/ImplementsUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/security/ImplementsUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0001__createTablePessoa.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0001__createTableAluno.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0002__insertPessoas.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0003__createTableEntrega.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0004__createTableOcorrencias.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0005__createTableRole.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0006__createTableUsuario.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0007__createTableUsuariosRole.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0008__dropColumnEmailPessoa.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0009__addColumnUsuarioPessoa.sql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/assembler/PresencaAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/PresencaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/input/PresencaInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/PresencaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/input/PresencaInputDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Presenca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/repository/PresencaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/service/PresencaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0003__createTablePresenca.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0004__addColumnData.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/controller/AlunoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/AlunoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/api/model/AlunoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/domain/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/security/ImplementsUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/security/JWTRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/senai/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/senai/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V0002__insertAlunos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V0002__insertAlunos.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/EntregaAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/OcorrenciaAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/PessoaAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/RoleAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/RoleUsuariosAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/assembler/UsuarioAssembler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/EntregaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/OcorrenciaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/PessoaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/controller/RoleUsuariosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/ClienteInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/DestinatarioInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/EntregaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/OcorrenciaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/PessoaIdInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/PessoaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/RoleInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/input/UsuarioInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/ClienteDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/DestinatarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/EntregaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/OcorrenciaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/PessoaDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/RoleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/RoleUsuariosDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/UsuarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/ClienteInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/DestinatarioInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/EntregaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/OcorrenciaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/PessoaIdInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/PessoaInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/RoleInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/RoleUsuariosInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/api/model/input/UsuarioInputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/ValidationGroups$clienteID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/ValidationGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/AuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Destinatario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Entrega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Ocorrencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/RoleUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/RoleUsuarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/StatusEntrega.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/EntregaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/PessoaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/RoleUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/RoleUsuariosRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/EntregaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/OcorrenciaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/PessoaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/RoleUsuariosService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/domain/service/SolicitacaoEntregaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/security/ImplementsUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/security/JWTRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/senai/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/senai/security/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0001__createTablePessoa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0002__insertPessoas.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0003__createTableEntrega.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0004__createTableOcorrencias.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0005__createTableRole.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0006__createTableUsuario.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0007__createTableUsuariosRole.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0008__dropColumnEmailPessoa.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V0009__addColumnUsuarioPessoa.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +107,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -92,7 +116,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="24EUlSiI23YR942QW0p5dIF7vxV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -100,7 +126,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../logistica-api" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="LogisticaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -143,5 +170,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

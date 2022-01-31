@@ -23,7 +23,7 @@ public class Aluno {
     long id;
 
     @NotBlank
-    @Size(max = 60)
+    @Size(max = 100)
     String nome;
 }
 

@@ -1,1 +1,0 @@
-alter table pessoa drop column email;
