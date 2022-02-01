@@ -3,6 +3,7 @@ package br.com.senai.api.controller;
 import br.com.senai.api.assembler.PresencaAssembler;
 import br.com.senai.api.input.PresencaInputDTO;
 import br.com.senai.api.model.PresencaDTO;
+import br.com.senai.domain.model.Aluno;
 import br.com.senai.domain.model.Presenca;
 import br.com.senai.domain.repository.PresencaRepository;
 import br.com.senai.domain.service.PresencaService;
@@ -23,7 +24,8 @@ public class PresencaController {
     private PresencaAssembler presencaAssembler;
 
     @GetMapping
-    public List<PresencaDTO> listar(){ return presencaService.listar();
+    public List<PresencaDTO> listar(){
+        return presencaService.listar();
     }
 
     @GetMapping("/{presencaId}")

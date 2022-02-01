@@ -3,13 +3,13 @@ package br.com.senai.api.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Getter
 @Setter
 public class PresencaDTO {
     private long id;
     private boolean presenca;
-    private LocalDateTime data;
+    private LocalDate data;
     private AlunoDTO aluno;
 }

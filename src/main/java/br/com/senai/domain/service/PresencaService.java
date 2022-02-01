@@ -3,6 +3,7 @@ package br.com.senai.domain.service;
 import br.com.senai.api.assembler.PresencaAssembler;
 import br.com.senai.api.input.PresencaInputDTO;
 import br.com.senai.api.model.PresencaDTO;
+import br.com.senai.domain.model.Aluno;
 import br.com.senai.domain.model.Presenca;
 import br.com.senai.domain.repository.AlunoRepository;
 import br.com.senai.domain.repository.PresencaRepository;

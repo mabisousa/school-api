@@ -6,7 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import javax.validation.Valid;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Setter
 @Getter
@@ -25,6 +25,6 @@ public class Presenca {
     private boolean presenca;
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
-    private LocalDateTime data;
+    private LocalDate data;
 
 }
