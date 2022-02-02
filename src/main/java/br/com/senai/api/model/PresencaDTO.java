@@ -10,6 +10,6 @@ import java.time.LocalDate;
 public class PresencaDTO {
     private long id;
     private boolean presenca;
-    private LocalDate data;
-    private AlunoDTO aluno;
+    private String data;
+    private Long aluno_id;
 }

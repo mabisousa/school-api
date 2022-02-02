@@ -16,15 +16,13 @@ public class Presenca {
     @Valid
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "aluno_id")
-    Aluno aluno;
+    private Long aluno_id;
 
     private boolean presenca;
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
-    private LocalDate data;
+    private String data;
 
 }

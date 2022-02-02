@@ -1,1 +1,1 @@
-ALTER TABLE presenca ADD COLUMN data date;
+ALTER TABLE presenca ADD COLUMN data varchar(10);

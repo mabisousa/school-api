@@ -14,9 +14,9 @@ public class PresencaInputDTO {
     private boolean presenca;
 
     @NotNull
-    private AlunoInputDTO aluno;
+    private Long aluno_id;
 
     @NotNull
-    private LocalDate data;
+    private String data;
 
 }
